@@ -16,12 +16,12 @@ public class UserService {
             throw new RuntimeException("Email Already Exists");
         }
         User user=new User();
-        user.setEmail(user.getEmail());
-        user.setPassword(user.getPassword());
-        user.setFirstName(user.getFirstName());
-        user.setLastName(user.getLastName());
+        user.setEmail(request.getEmail());
+        user.setPassword(request.getPassword());
+        user.setFirstName(request.getFirstName());
+        user.setLastName(request.getLastName());
 
-        User savedUser=new User();
+        User savedUser=userRepository.save(user);
         UserResponse response=new UserResponse();
         response.setId(savedUser.getId());
         response.setEmail(savedUser.getEmail());
