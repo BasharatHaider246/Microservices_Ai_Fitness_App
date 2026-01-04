@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b3ba9a1-d80b-46f2-a77c-b1a2bb626934" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/userservice/src/main/java/com/fitness/userservice/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/userservice/src/main/java/com/fitness/userservice/models/UserRole.java" afterDir="false" />
+    <list default="true" id="bcfc321b-318c-40a7-8a61-2b8ab40c9f37" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/activityService/src/main/java/com/fitness/activityService/controllers/ActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/activityService/src/main/java/com/fitness/activityService/dto/ActivtyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/activityService/src/main/java/com/fitness/activityService/models/Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/activityService/src/main/java/com/fitness/activityService/models/ActivityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/activityService/src/main/java/com/fitness/activityService/service/ActivityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/userservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/userservice/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/userservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/userservice/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -35,82 +40,46 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BasharatHaider246/Microservices_Ai_Fitness_App.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/BasharatHaider246/Microservices_Ai_Fitness_App&quot;,
     &quot;accountId&quot;: &quot;73761894-67f0-4ac0-bbb9-63bcc4280307&quot;
   }
 }</component>
-  <component name="JpbToolWindowState">
-    <option name="isToolWindowVisible" value="false" />
-  </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
 }</component>
-  <component name="ProjectId" id="37hSIZDki6A5CitXh9uiesCLiR4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="37mIVaRQcQOmbA6l6bLsQYBhJYv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.UserserviceApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Basharat/OneDrive/Desktop/Microservices_Ai_Fitness_App/Backend/userservice/userservice/pom.xml",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ActivityServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;activityService&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Basharat/OneDrive/Desktop/Microservices_Ai_Fitness_App/Backend/activityService/pom.xml&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.fitness.userservice.models" />
+      <recent name="com.fitness.activityService.dto" />
+      <recent name="com.fitness.activityService.models" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="UserserviceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fitness.userservice.UserserviceApplication" />
-      <module name="userservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fitness.userservice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.UserserviceApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4b3ba9a1-d80b-46f2-a77c-b1a2bb626934" name="Changes" comment="" />
-      <created>1767353731536</created>
+      <changelist id="bcfc321b-318c-40a7-8a61-2b8ab40c9f37" name="Changes" comment="" />
+      <created>1767501850384</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1767353731536</updated>
+      <updated>1767501850384</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
