@@ -7,9 +7,6 @@ import java.time.LocalDateTime;
 import java.util.Map;
 
 @Data
-import java.time.LocalDateTime;
-import java.util.Map;
-
 public class ActivtyRequest {
     private String userId;
     private ActivityType type;
@@ -17,6 +14,4 @@ public class ActivtyRequest {
     private Integer caloriesBurned;
     private LocalDateTime startTime;
     private Map<String,Object> additionalMetrics;
-
-
 }
