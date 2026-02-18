@@ -1,7 +1,7 @@
 package com.fitness.activityService.controllers;
 
 import com.fitness.activityService.dto.ActivityResponse;
-import com.fitness.activityService.dto.ActivtyRequest;
+import com.fitness.activityService.dto.ActivityRequest;
 import com.fitness.activityService.service.ActivityService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -17,7 +17,7 @@ public class ActivityController {
     private ActivityService activityService;
 
     @PostMapping
-    public ResponseEntity<ActivityResponse>trackActivity(@RequestBody ActivtyRequest request){
+    public ResponseEntity<ActivityResponse>trackActivity(@RequestBody ActivityRequest request){
         return ResponseEntity.ok(activityService.trackActivity(request));
     }
 }

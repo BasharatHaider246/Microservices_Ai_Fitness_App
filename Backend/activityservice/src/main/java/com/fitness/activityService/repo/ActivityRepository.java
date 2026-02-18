@@ -1,4 +1,9 @@
-package com.fitness.activityService.service.repo;
+package com.fitness.activityService.repo;
 
-public interface ActivityRepository {
+import com.fitness.activityService.models.Activity;
+import org.springframework.data.mongodb.repository.MongoRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ActivityRepository extends MongoRepository<Activity, String> {
 }

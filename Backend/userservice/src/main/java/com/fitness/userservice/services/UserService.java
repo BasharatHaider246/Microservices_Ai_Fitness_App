@@ -5,11 +5,13 @@ import com.fitness.userservice.dto.UserResponse;
 import com.fitness.userservice.models.User;
 import com.fitness.userservice.repo.UserRepository;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.jspecify.annotations.Nullable;
 import org.springframework.stereotype.Service;
 
 @Service
 @AllArgsConstructor
+@Slf4j
 public class UserService {
     private final UserRepository userRepository;
     public  UserResponse register(RegisterRequest request) {
@@ -33,7 +35,6 @@ public class UserService {
         response.setUpdatedAt(savedUser.getUpdatedAt());
         return response;
     }
-
     public UserResponse getUserProfile(String userId) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("User not found"));
@@ -46,5 +47,10 @@ public class UserService {
         userResponse.setCreatedAt(user.getCreatedAt());
         userResponse.setUpdatedAt(user.getUpdatedAt());
         return userResponse;
+    }
+
+    public Boolean existsByUserId(String userId) {
+        log.info("Calling User Service for validating user with ID: {}", userId);
+        return userRepository.existsById(userId);
     }
 }
